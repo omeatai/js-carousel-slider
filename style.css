@@ -1,7 +1,51 @@
-.visible {
-  display: block;
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #d3d3d3;
 }
 
-.hidden {
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  border: 5px solid #000;
+  text-align: center;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.slide-hidden {
   display: none;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  border: 0;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+}
+
+#prev-btn {
+  margin-left: 20px;
+}
+
+#next-btn {
+  margin-right: 20px;
 }
