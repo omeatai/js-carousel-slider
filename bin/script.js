@@ -36,3 +36,5 @@ function hideSlides() {
 		slide.classList.add("hidden");
 	}
 }
+
+console.log("working...");
